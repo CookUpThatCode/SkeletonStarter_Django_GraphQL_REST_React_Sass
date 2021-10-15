@@ -14,7 +14,7 @@ pipenv install
 
 cd a0_django
 
-# Start backend server
+# Start backend server at localhost:8000
 python manage.py runserver
 ```
 
@@ -23,8 +23,10 @@ python manage.py runserver
 # Install Javascript dependencies
 yarn
 
-# Start React server
+# Start React server at localhost:3000
 yarn start
+
+# Access website at localhost:3000
 ```
 
 ## Web Skeleton Overview (What is included)
