@@ -9,10 +9,10 @@
 ```bash
 # Create and enter into a virtual environment. "exit" to exit
 pipenv shell
-
-cd a0_django
 # install Python dependencies
 pipenv install
+
+cd a0_django
 
 # Start backend server
 python manage.py runserver
