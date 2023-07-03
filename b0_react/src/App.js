@@ -10,6 +10,8 @@ const App = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem('token_DRF'))
     const [uploadedImage, setUploadedImage] = useState(-1)
 
+    // conflict dev3
+
     return (
         <Router>
             <Header isLoggedIn={isLoggedIn} uploadedImage={uploadedImage} />
